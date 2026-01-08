@@ -1,0 +1,48 @@
+.image{
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+.tb{
+  font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: white;
+    width: 400px;
+    border: none;
+    box-shadow: 2px 2px 11px 1px #e4d9d9;
+    border-width: 1px;
+    border-radius: 120px;
+    padding-left: 1%;
+    padding-right: 10%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    height: 20px;
+    margin-bottom: 45px;
+    
+}
+.gl{
+  width: 150px;
+  height: 50px;
+  background-color: #f0f0f0;
+  color: black;
+  font-size: 16px;
+  margin-right: 18px;
+  
+  border: none;
+}
+.lu{
+  width: 180px;
+  height: 50px;
+  background-color: #f0f0f0;
+  color: black;
+  font-size: 16px;
+  border: none;
+  vertical-align: top;
+  
+}
+.google{
+  text-align: center;
+  width: 800px;
+}

@@ -1,0 +1,93 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    width: 200px;
+    background-color: lightblue;
+    color: black;
+}
+.two{
+    width: 75px;
+    background-color: pink;
+    color: black;
+
+}
+.mainn{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.onee{
+    width: 50px;
+    background-color: lightblue;
+    color: black;
+}
+.twoo{
+    flex: 1;
+    background-color: pink;
+    color: black;
+}
+.three{
+    width: 75px;
+    background-color: lightblue;
+    color: black;
+}
+
+.mainnn{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    
+}
+.oneee{
+    
+    background-color: pink;
+    color: black;
+    
+}
+.twooo{
+    
+    background-color: pink;
+    color: black;
+    
+}
+.threee{
+    
+    background-color: pink;
+    color: black;
+    
+}
+.four{
+    
+    background-color: pink;
+    color: black;
+}
+.last{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    align-items: center;
+}
+.a{
+    background-color: pink;
+    color: black;
+    
+}
+.c{
+    flex:1;
+}
+.b{
+background-color: pink;
+color: black;
+
+}

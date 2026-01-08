@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="YOUTUBE sample.css">
+</head>
+<body>
+    <div class="header">
+        <div class="lines">
+     <div class="a2"></div> 
+     <div class="a3"></div>
+     <div class="a4"></div>
+        </div>
+        <div class="ytimg">
+            <img class="youtube" src="https://1000logos.net/wp-content/uploads/2017/05/Youtube-logo-500x313.jpg"></div>
+            <div class="search">
+                <input class="srh" type="text" placeholder="Search">
+            </div>
+            <div class="icon">
+                <img class="baricon" src="Capture.PNG">
+            </div>
+           <div class="voice">
+            <img class="voicesrh" src="data:image/png;base64,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">
+           </div>
+           <div class="video">
+            <img class="videocrt" src="https://cdn.icon-icons.com/icons2/3237/PNG/512/social_media_chatting_tool_add_video_icon_197449.png">
+               
+           </div>
+           <div class="bell">
+            <img class="notifyicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJawTGYw0IlsZdxw8jkYfHaDTwbYyfS-VPSA&usqp=CAU">
+            <div class="num">3</div>
+           </div>
+           <div class="channel">
+            <img class="chpic" src="https://yt3.ggpht.com/ZIB8_9MKi7uEymTqxUN771Q3hEr0uPN5bbwT7R-ZWzvWwsqZSuo90EXspSGdpjAXH6-Q9LTY=s88-c-k-c0x00ffffff-no-rj">
+           </div>
+    </div>
+    <div class="sidebar">
+        <div class="home">
+            <img class="h1" src="data:image/png;base64,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">
+            <p class="parah">Home</p>
+        </div>
+        <div class="home1">
+            <img class="h2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNn5l6NjIOck3oKSaBLy6evBdzUel62XehrUdQ9GqjgwqMaOKZ71q0uLOZRi0WEhscnUU&usqp=CAU">
+            <p class="parah1">Explore</p>
+        </div>
+        <div class="home2">
+            <img class="h3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEX///8AAAClpaVhYWErKyt0dHSEhITc3Nzl5eX19fW0tLSUlJTLy8uioqKAgIDr6+u4uLhNTU0jIyPz8/MyMjKLi4sMDAybm5scHBzExMRSUlJbW1tubm52dnY7OztGRkYWFhZHR0cwMDA/Pz/W1tYwXPK3AAAER0lEQVR4nO2d6XbaMBBGZVYDDgQISxIgbcn7P2N7UuNFTr1Jo/nc893fOqpuIYwlzYyNIYQQQgghhBBCCCGEEFGe1rOQrJ+CG75HYXkPbjgObDimIQ1pSEMaDtDwspuEZHcJbkgIIYQQQgjxzj5GZO/R8BB4M9iOg0fDlbbMt6xoSEMaqkNDGhb5/+PhZo7IxqMhIYQQQgghRIj5aH2dDoXrejTvprdYvWhv/jrzslq0Fxxpr7Yno7YfYOh0J3+8t/sYb9rrdODWRvBNe5VOvDULYh6rtafxAC7WXqEzcYPhVHuBzlzrBRfFsR/jofBRXHb97+kyH+jzRFmews/HsnZg/iUNX6PixlPLr2n2sHYPtDB/3B9Lf6kddnwM83knEIbsbuVYOyz7qNs+4uGQP0zXDqMhMDRMoSEwNEyhITA0TKEhMDRMoWEnFsvVqeN1ggMKhsnXRBef+eZ1hDd8nEv+SJynakV4w0s218x5rjaENyxcf0xC/DUGN1xMogIBTu6UDaM38WRQbcMoenadsQF9Q+m4AWAYnV9dJ60DwVA2bmAYSsYNEMMoOrlO/C9gDMXihqLh4V5WbLjg64ui4XOl5EYkbiga/vnIknNZUSJu6BqaxaWsGK1d56+gbGjMs6W48x031A3Nxu4l6Tlu6BsWkwn+svUaNxAMTWzHSJ9xA8LQmJmlOO6Q9doAiKFg3EAxlIsbMIZicQPI0OztJF0vcQPJUCZuYBmauf+4AWYoEDfgDE2yKyu63m/gGVbjhts5FaBhNW44nVNBGpqNx7iBaWjMyVLs3xAZ1dDMf5UVez/EwRpW4kbfqAFsaMWNvpsNZMNlaUfVNyziGtrljn3/QVjD17Jf/1IdVMO1Jdh/P4xpOLcLqh2uwiEN7WrOrct9BqBh/NMSdEtJwTNclvWim+NxDZyhXRLvfMUPZphYfmf39D4sQ/sI4+Lh6BvJ0N5O+EmXAjK0t4SerqBgDDcfZT9vaYsohnaMuHu7CsYw9Hy8VgLCUCBG5CAY2jFi6u961CAYftr7CM+pUeqGQjEiR9kwlooRObqGcjEiRzNzrxIjRFpSKBpePV+j/QOcDFof+4jvgDEUK7sAMRQsncEwlCx/QjCUiBE5AIbCbYv0DaVLSbUN5V92q2woXZpnlKtk5csrjYZhfm8WprldeMN92vvt1tSM0hMKHQfir+9psNZ2Kn0xPkfLcG+7YeePFBoCQ8MUGgJDwxQaAkPDFBoCQ8OUbNTQWrIX6+Fqh2Udy8N0IPNJdode37E8O1ypb92OSHaJXv8mlvxwZWht5/PuIvWJ1IVaq+mQXkYbF9480nByGRU4TobCsbjshv8MO+dleDT9Rm60F+hM4x/XUN9I9qDFo8qw3xY0bRas5pgPiZYFmsP9tWn9JPZ6bp4MkE7JnMut9nI7s+2a67hJTofZUDickiE9gRFCCCGEEEIIIYQQQiD5DRf/VsChuDfgAAAAAElFTkSuQmCC">
+            <p class="parah2">Subscriptions</p>
+        </div>
+        <div class="home2">
+            <img class="h3" src="data:image/png;base64,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">
+            <p class="parah3">Originals</p>
+        </div>
+        <div class="home2">
+            <img class="h3" src="data:image/png;base64,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">
+            <p class="parah4">Yt Music</p>
+    </div>
+    
+    <div class="home2">
+        <img class="h3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX///8AAAD09PRLS0vc3NyOjo6tra21tbX5+fkxMTEODg6UlJTw8PD8/Pz19fWYmJi7u7uBgYHV1dXDw8MeHh5DQ0NbW1tWVlbo6OhwcHA1NTUvLy8kJCShoaFra2vQ0NAXFxd5eXljY2M+Pj6fn5+Hh4dJSUlSUlKeHPSCAAAFnElEQVR4nO2d7XayOhBGQS0qav3AVvyq9tW293+Hh/d0uQ4TMAlJOPPAmv3XGLMlw4RAQhQJgiAIgiAIgiBwMhh/DbdpzEu6fVsneSt65zdmtzLTe2jJyezKLaWynocUzE7cPjWkSTjBNbfME94XYfxed9wmTzkE6amTb24PDccQij/cFloO/h0VNQYfvPsKZtwGRjzPqIspt4CR1C8Uz9ztt2DtZcjdeit8BnAr7sZbcfcwrGSK93E+4CVffaiNmroLvipVXTce/1Y4Rurpz72bqqki6Gjeg1dF0T1h3GlFWcBG+jGiDXM/m+5JPT8Bm+gLjcU353roRcU5YAt9oSf5rXM9Q1LPJWALfclJy1LneqjhKGALfRnQQHSuRwz5EENbxJAPMVTJ9sPhn3F1Tqcvhvntt1hauXLoiWFpFKsOrXtiWL4SUS6P+mE4Lpd8oZ/1w5BMVJwm5LN+GNJ7ugPyWT8MaVExREEMy4ihGPIghmXEUAx5EMMyYiiGPLAazpPPj8/xwFzQB07D5W/h63JiLusOo2HppuqsRUc+Q/qE0bK1vspmOFGec7/OWnJkM6w+YZQuAz3HS2EznFUMC5avPi71sBm+1BkWjsEfxEEzjNNZ4OMIZxiHzh2IhmFzB6Zh0VeDOYIa/nUM1FdhDQtegjgiG4bJHdiGIeIR3DD2zx34hr65A8TwYHD0iEcQw2T0R6voMZZDMYyikWHtoms84hhG0UZ/HB3jEcnQ6OiUO7AMC8d3g2PjvopmWMSj3rFxPOIZWsRjo9yBaGgRjw1yB6ZhyNyBahgud+Aams+rduvQkA2Njp/dNzTFo80KMnRDQzxa5A18Q63juB+Gmni0iMRuGD6dEtibf6gbhqtnG09ZLOvtguHq9sQvjld9MMw0czhbi7EbumGm3THF4hCCG2r651+WFoLQhrr+WXCy29YA11DfP+OtRbKHNsz0/fNg64dq+DT//XKsWeLZKUND/F3tjx+m4Uoff8dmfniGhv7ZIP4wDQ3579Qk/hANDfFnnR9QDQ1+B9f9j1AMs4D5AdJQvzHv1d0PxlDHyS3+HsAbOuQHCrihR/w9gDZsOD6rB9jwGGaLalhD7/h7AGroND6rB9LQcXxWD6Ch8/isHjjDAPmBAmboNT6rB2rNTOPrdxvYDKv7m9/a8ONcu7al1U3b8eNcf0h2nfK8ftDBuIb0v3NN4PxA4VwHPP7tqC3F3wPWtdyTbPaybHtHXlmPX0YMxZAHMSwjhmLIgxiWEUMx5EEMy4ihGPIghmXEUAx5EMMyYiiGPIhhGTEUQx7aMezq+w91hnRBstWCpP8JcifW8A5LnSF9D6n72z7DQxfYDrVldYbKW7nbvenZhAtt2Je2sM5QqQjmXDNXnq/W//U6w4ViCHIUK8+06Bfw6wyjypr52/Iy4uVyrrws3HCC0BpWnwBCxLDNBC2sbp6yra8TitSw4wstrRYe11cKxUwvaDCM9KteEDAubqfFK4YbnmY3wLg0mhavdul7fb0wmLcJoeVrgnZfXzMIO6Og2bCaFIH4ttgBjX6j9sSLexR/bLY/o1+pTy3n+vrZsdjmxdIw2nzzKGiZ2m0wYWdYpP4Tj8ZzzrYLAOjXNAOgDOmMs7PZ4qWpYcEl+dwNudntz1mjPV2bGHYTMew+Yth9xLD70PeI5dzNaQE619RgqNAZ6ETMB3dzWmBNAxFl4j4gCTWctvAaOGbovcY4PvbvKFb2GftY5QMofN8QhT5dGMenL78kpnZTSCwnLJ6wNv8APxsfw3lq/gF2rl4HMTH/AD9+t58Nr0iBwG+0tTC8XQsB/RMlRuZHbgEjnobRHP4oWmxFr2eBHot+GfFfEuikcfMXjKIBcuoPNPmQ3/Xb/bJxCDi7kifrty1Wf01/+ji3IgiCIAiCIAgCPP8AyjRoMLr5eoMAAAAASUVORK5CYII=">
+        <p class="parah5">Library</p>
+        </div>
+    </div>
+    <div class="main">
+        
+        <div class="firstrow">
+            <div class="first">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/n2RNcPRtAiY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKsdfkJIMMsO898qSZUFfpplEz7w">
+                    <p class="timer">14:20</p>
+
+                </div>
+                <div class="next">
+                    
+                    <img class="a1" src="https://yt3.ggpht.com/lkH37D712tiyphnu0Id0D5MwwQ7IRuwgQLVD05iMXlDWO-kDHut3uI4MgIEAQ9StK0qOST7fiA=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Talking Tech and AI with Google CEO Sundar Pichai!</p></div>
+                    <div class="para1">
+                    <p class="p2">Marques Brownlee</p></div>
+                    <div class="para2">
+                    <p class="p2">3.4M views &#183; 6 months ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="second">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/F5tMDGRqUOk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGnQHaGEWlCbETsMfEHZug7yZYvg">
+                    <p class="timer">15:20</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKbVKeVdgR19Nh6kfvbFFRZZn2_FKaiPaKkIp-inKQ=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Try Not To Laugh Challenge #9</p></div>
+                    <div class="para1">
+                    <p class="p2">Markiplier</p></div>
+                    <div class="para2">
+                    <p class="p2">19M views &#183; 4 years ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="third">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/FgjPQQeTh1w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBir1SYpAvC4MP5DkGvwTn0loVO0w">
+                    <p class="timera">9:13</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKbpOgjog4WIPQ5fkjVlUaEKNs6c_eHSOS7uU4-M9A=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Crazy Tik Toks Taken Moments Before DISASTER</p></div>
+                    <div class="para1">
+                    <p class="p2">SSSniperWolf</p></div>
+                    <div class="para2">
+                    <p class="p2">12M views &#183; 1 year ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="fourth">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/094y1Z2wpJg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPpLLynZjoE62sQ-fZz3pDuI92KQ">
+                    <p class="timer">22:09</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKZCB8Du5V9Tx6DvgFSwCnUWv8wXya2n97oRc7aF_w=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">The Simplest Math Probem No One Can Solve - Collatz Conjecture </p></div>
+                    <div class="para1">
+                    <p class="p2">Veritasium</p></div>
+                    <div class="para2">
+                    <p class="p2">18M views &#183; 4 months ago</p></div>
+                </div>
+                </div>
+        </div>
+        </div>
+        <div class="secondrow">
+            <div class="first">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/86CQq3pKSUw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSo8l6Mqtn0LShikDUMa-EgelncA">
+                    <p class="timer">11:17</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKZUUu9J0YVwxBkfgfeVAHs-p86x10UYPNC_0hjB=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Kadane's Algorithm To Maximum Sum Subarray Probelm</p></div>
+                    <div class="para1">
+                    <p class="p2">CS Dojo</p></div>
+                    <div class="para2">
+                    <p class="p2">519k views &#183; 5 years ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="second">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/yXWw0_UfSFg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPGC-KyVT8_ewkGhrgq6AOVpG7Fw">
+                    <p class="timer">19:59</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKbAfC_5NBQ3CM6Lyd2zXUFbC4mym1GCRhmpIwcMXg=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Anything You Can Fit In The Circle I'll Pay For </p></div>
+                    <div class="para1">
+                    <p class="p2">MrBeast</p></div>
+                    <div class="para2">
+                    <p class="p2">141M views &#183; 1 year ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="third">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/fNVa1qMbF9Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcUue0W2fbZeT0jjOxI6QRx-DceA">
+                    <p class="timera">8:13</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKa4Ei0w6zq6FXKCD3tBEdPvTd70Cmo8ZoP5G02EHQ=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Why Planes Don't Fly Over Tibet</p></div>
+                    <div class="para1">
+                    <p class="p2">RealLifeLore</p></div>
+                    <div class="para2">
+                    <p class="p2">6.6M views &#183; 1 year ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="fourth">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/lFm4EM1juls/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCzYIAlwAbU9yv5tGck9I3RVJYLxg">
+                    <p class="timer">17:12</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/DrwjaVyutu-M_TkbhiagVsf1YLxW636SVA8HgquZVrs5QplfgHob1cUl6X_hE49QLJj4j-S7pA=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Inside The World's Biggest Passenger Plane </p></div>
+                    <div class="para1">
+                    <p class="p2">Tech Vision</p></div>
+                    <div class="para2">
+                    <p class="p2">3.7M views &#183; 10 months ago</p></div>
+                </div>
+                </div>
+        </div>
+        </div>
+        <div class="Thirdrow">
+            <div class="first">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/ixmxOlcrlUc/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFwNjU3aWNmYvH-IHjsuzg7x9PWw">
+                    <p class="timer">16:17</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKajBO7dlccou_exrW6ULI9o0Yw_NgE77pboleL93w=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">The SECRET to Super Human STRENGTH</p></div>
+                    <div class="para1">
+                    <p class="p2">ThenX</p></div>
+                    <div class="para2">
+                    <p class="p2">20M views &#183; 3 years ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="second">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/R2vXbFp5C9o/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn-xnDRJucJlvCAF7c44-41gznww">
+                    <p class="timer">11:59</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ewC1nleORkp8FkJpZrDPrqmVry6JHkUV_1eWuYFLlXTJGaoQ0v0qn1YLdZcpffMaRJrMMYIT5_U=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">How The World's Largest Cruise Ship Makes 30,000 Meals Everyday</p></div>
+                    <div class="para1">
+                    <p class="p2">Business Insider</p></div>
+                    <div class="para2">
+                    <p class="p2">14M views &#183; 1 year ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="third">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/0nZuYyXET3s/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgyARmKOzPiQCTltoKdyOp4GSIag">
+                    <p class="timera">9:13</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKb5bbUa5Xex61GHqkJ7E5l5wdxzH6KaK-XhCJEOLA=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p></div>
+                    <div class="para1">
+                    <p class="p2">Destination Tips</p></div>
+                    <div class="para2">
+                    <p class="p2">4.7M views &#183; 4 years ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="fourth">
+                <div class="firstimg1">
+                    <img class="a" src="https://i.ytimg.com/vi/9iMGFqMmUFs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpLFOegI13JQ6dXzzfOK7Pfmlygw">
+                    <p class="timer">12:11</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/HjXKmDGoAp6b-JdGYpqJYYeN4S_CMpD_kqWvldpN53cbzn-i73t6mVNo8mNki-xLPwi0BVSFi-o=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">What Would Happen If You Didn't Drink Water? - Mia Nacamulli </p></div>
+                    <div class="para1">
+                    <p class="p2">TED-Ed</p></div>
+                    <div class="para2">
+                    <p class="p2">12M views &#183; 5 years ago</p></div>
+                </div>
+                </div>
+        </div>
+        </div>
+        <div class="fourthrow">
+            <div class="first">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/_uQrJ0TkZlc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpUFKfUMVNbg8mqTcZ8UdSUjpilw">
+                    <p class="timer">50:17</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/ytc/APkrFKaEovkjwOFQ3HMD8S5KFvjayVFtNBn2ofFrA9Xw=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Python Tutorial - Python Full Course For Beginners</p></div>
+                    <div class="para1">
+                    <p class="p2">Programming with Mosh</p></div>
+                    <div class="para2">
+                    <p class="p2">36M views &#183; 4 years ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="second">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/xKlik9w2xXo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBFaOWGW2tUJJw7T-2tccI9wGDidw">
+                    <p class="timer">12:26</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/z7ld-8fd6O1_TWOwzngpxqnkNfdyyQfm-Gk0PwOSzep3LFCCtzbUWKsNGPL6Spk4hWqHZUgk=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Indian Cricket Team Strategy Revealed</p></div>
+                    <div class="para1">
+                    <p class="p2">Tanmay Bhat</p></div>
+                    <div class="para2">
+                    <p class="p2">1.5M views &#183; 3 days ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="third">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/tBdwetBS1DA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBt34MiRMY9ME9UJlpUEgoav5zbKg">
+                    <p class="timera">6:44</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/EBqTSlUklfmfPtYMRunVhWm02qq8OQ3uRP-BCh38fluI1gMJ3I8bZkAGeGm3oKUnSTZv8UgWjUU=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Riding On Japan's First Class Overnight Train</p></div>
+                    <div class="para1">
+                    <p class="p2">Solo Solo Travel</p></div>
+                    <div class="para2">
+                    <p class="p2">29M views &#183; 1 year ago</p></div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="fourth">
+                <div class="firstimg">
+                    <img class="a" src="https://i.ytimg.com/vi/Pr2Jcyo1h3s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBfDpjvq-_l8jwDT2zoyYRPPlR0fA">
+                    <p class="timer">17:53</p>
+
+                </div>
+                <div class="next">
+                    <img class="a1" src="https://yt3.ggpht.com/zgKGRQakPx0Mx4xlMI6s5EkzLhsEoLQwsWJ3Ei5_aonsZs0YfdF6WIWNTHZ88WdRSTNTjUKOcA=s68-c-k-c0x00ffffff-no-rj">
+                    <div class="paramain">
+                    <div class="para">
+                    <p class="p1">Types of Kids in Summer Vacations</p></div>
+                    <div class="para1">
+                    <p class="p2">Raj Grover</p></div>
+                    <div class="para2">
+                    <p class="p2">9.8M views &#183; 11 months ago</p></div>
+                </div>
+                </div>
+        </div>
+        </div>
+        
+    </div>
+</body>
+</html>

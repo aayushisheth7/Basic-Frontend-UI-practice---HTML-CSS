@@ -1,0 +1,11 @@
+.grid{
+    display: grid;
+    row-gap: 10px;
+}
+.a{
+    background-color: pink;
+    
+}
+.b{
+    background-color: pink;
+}

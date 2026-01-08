@@ -1,0 +1,194 @@
+.all{
+    width: 190px;
+    display: inline-block;
+    border: none;
+    box-shadow: 2px 2px 11px 1px #e4d9d9;
+    vertical-align: top;
+    margin-right: 50px;
+}
+.cat1{
+    width: 190px;
+    height: 180px;
+}
+.name1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.cat2{
+    width: 25px;
+    height: 25px;
+    border-radius: 37px;
+    object-fit: cover;
+}
+.two{
+    padding-left: 8px;
+}
+.three{
+    display: inline-block;
+    vertical-align: top;
+padding-left: 8px;
+}
+.four{
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    height: 25px;
+    margin-bottom: 12px;
+    
+}
+.name2{
+    height: 13px;
+    width: 107px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(134, 130, 133);
+    margin-left: 5px;
+    margin-bottom: 0px;
+
+}
+.name3{
+    width: 110px;
+    height: 34px;
+    background-color: rgb(103, 117, 247);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    padding-bottom: 2px;
+}
+.five{
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+
+.secondall{
+    width: 190px;
+    display: inline-block;
+    border: none;
+    box-shadow: 2px 2px 11px 1px #e4d9d9;
+    vertical-align: top;
+    margin-right: 50px;
+}
+.c1{
+    width: 190px;
+    height: 180px;
+}
+.n1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.c2{
+    width: 25px;
+    height: 25px;
+    border-radius: 37px;
+    object-fit: cover;
+}
+.stwo{
+    padding-left: 8px;
+}
+.sthree{
+    display: inline-block;
+    vertical-align: top;
+padding-left: 8px;
+}
+.sfour{
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    height: 25px;
+    margin-bottom: 12px;
+}
+.n2{
+    height: 13px;
+    width: 107px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(134, 130, 133);
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+.n3{
+    width: 110px;
+    height: 34px;
+    background-color: rgb(103, 117, 247);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    padding-bottom: 2px;
+}
+.sfive{
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+.thirdall{
+    width: 190px;
+    display: inline-block;
+    border: none;
+    box-shadow: 2px 2px 11px 1px #e4d9d9;
+    vertical-align: top;
+}
+.ca1{
+    width: 190px;
+    height: 180px;
+}
+.na1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.ca2{
+    width: 25px;
+    height: 25px;
+    border-radius: 37px;
+    object-fit: cover;
+}
+.ttwo{
+    padding-left: 8px;
+}
+.tthree{
+    display: inline-block;
+    vertical-align: top;
+padding-left: 8px;
+}
+.tfour{
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    height: 25px;
+    margin-bottom: 12px;
+}
+.na2{
+    height: 13px;
+    width: 107px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(134, 130, 133);
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+.na3{
+    width: 110px;
+    height: 34px;
+    background-color: rgb(103, 117, 247);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    padding-bottom: 2px;
+}
+.tfive{
+    padding-left: 8px;
+    padding-bottom: 10px;
+}

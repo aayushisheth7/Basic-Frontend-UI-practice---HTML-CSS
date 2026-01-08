@@ -1,0 +1,48 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+
+}
+.one{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}
+.two{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}
+.three{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}
+.four{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}
+.five{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}
+.six{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}
+.seven{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}
+.eight{
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}

@@ -1,0 +1,11 @@
+.main{
+    background-image: url("college\ image.png");
+    height: 600px;
+    width: 1400px;
+    
+}
+.para{
+    font-size: 50px;
+    color: white;
+    padding:40px;
+}

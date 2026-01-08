@@ -1,0 +1,41 @@
+.main{
+    width: 980px;
+    height: 70px;
+    background-color: rgb(139, 97, 179);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    }
+
+.home{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18px;
+}
+.txt{
+    height: 31px;
+    border: none;
+    border-radius: 18px;
+    width: 560px;
+
+}
+.down{
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color:rgb(139, 97, 179);
+    width: 115px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 17px;
+
+}
+.d{
+    margin-right: 18px;
+}

@@ -1,0 +1,95 @@
+body{
+    background-image: url("bgimg.jpg");
+}
+
+
+.main{
+    height: 470px;
+    width: 470px;
+    border: 1px solid lightgray;
+    margin-top: 90px;
+    border-radius: 30px;
+    box-shadow: 2px 1px 5px gray;
+    background-color: white;
+    opacity: 0.95;
+
+}
+
+.f{
+    display: flex;
+    flex-direction: row;
+    
+}
+.img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border:5px solid white;
+    box-shadow: 2px 1px 5px gray;
+    margin-top: -40px;
+}
+.head{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(77, 123, 223);
+    margin-top: 18px;
+}
+label{
+    font-size: 23px;
+    
+    
+}
+.same{
+    width: 340px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.c{
+    margin-bottom: 10px;
+}
+.d{
+    margin-bottom: 40px;
+}
+
+
+
+
+#pass1{
+    width: 360px;
+    height: 36px;
+    border:none;
+    background-color: rgb(230, 221, 221);
+    border-radius: 20px;
+    
+}
+::placeholder{
+      padding-left: 11px;
+}
+.sub{
+    width: 360px;
+    height: 50px;
+    border:none;
+    background-color: rgb(97, 113, 255);
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+}
+.para{
+    color: rgb(51, 173, 248);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 55px;
+    
+}
+.p{
+   margin-right: 86px;
+}
+.e{
+    margin-bottom: 8px;
+}
+.paraa{
+    color: rgb(51, 173, 248);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+    
